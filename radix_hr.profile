@@ -40,7 +40,7 @@ function radix_hr_form_install_configure_form_alter(&$form, $form_state) {
   $form['radix_hr'] = array(
     '#type' => 'fieldset',
     '#collapsible' => FALSE,
-    '#title' => t('BrightBrain HR Platform'),
+    '#title' => t('Radix HR Platform'),
   );
 
   $form['radix_hr']['radix_hr_demo_terms'] = array(
