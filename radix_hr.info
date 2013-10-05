@@ -1,0 +1,100 @@
+name        = Radix HR
+description = Radix HR Installation Profile
+core        = 7.x
+files[]     = radix_hr.profile
+files[]     = radix_hr.install
+
+; Core required
+dependencies[] = block
+dependencies[] = translation
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = image
+dependencies[] = list
+dependencies[] = locale
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = options
+dependencies[] = path
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = user
+
+; Core optional
+dependencies[] = contextual
+dependencies[] = comment
+dependencies[] = dashboard
+dependencies[] = dblog
+dependencies[] = field_ui
+dependencies[] = number
+dependencies[] = rdf
+dependencies[] = shortcut
+dependencies[] = update
+
+; Other
+dependencies[] = backup_migrate
+dependencies[] = block_class
+dependencies[] = libraries
+dependencies[] = menu_attributes
+dependencies[] = module_filter
+dependencies[] = clone
+dependencies[] = pathauto
+dependencies[] = entity
+dependencies[] = token
+
+; Administration
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+
+; Caching
+dependencies[] = blockcache_alter
+
+; CTools
+dependencies[] = ctools
+
+; Features
+dependencies[] = features
+
+; User Interface
+dependencies[] = autocomplete_deluxe
+dependencies[] = ckeditor
+dependencies[] = ckeditor_link
+dependencies[] = jquery_update
+dependencies[] = lightbox2
+
+; Media
+dependencies[] = imce
+
+; Taxonomy
+dependencies[] = taxonomy_csv
+
+; Devel
+dependencies[] = devel
+dependencies[] = role_export
+
+; Views
+dependencies[] = semanticviews
+dependencies[] = views
+dependencies[] = views_content_cache
+dependencies[] = views_ui
+
+; Fields
+dependencies[] = email
+dependencies[] = field_group
+dependencies[] = field_collection
+
+; Webform
+dependencies[] = webform
+
+; BB HR Features
+;dependencies[] = bb_hr_job
+;dependencies[] = bb_hr_admin
+;dependencies[] = bb_hr_recruiter
+;dependencies[] = bb_hr_applicant
+;dependencies[] = bb_hr_application
+;dependencies[] = bb_hr_webmaster
+; We can not make this a dependency (enable on install), otherwise block & facet settings are lost
+; dependencies[] = bb_hr_job_search
