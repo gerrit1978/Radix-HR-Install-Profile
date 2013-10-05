@@ -89,7 +89,7 @@ dependencies[] = field_collection
 ; Webform
 dependencies[] = webform
 
-; BB HR Features
+; Radix HR Features
 dependencies[] = radix_hr_job
 ;dependencies[] = bb_hr_admin
 ;dependencies[] = bb_hr_recruiter
