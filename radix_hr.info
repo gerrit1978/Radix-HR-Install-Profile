@@ -91,9 +91,9 @@ dependencies[] = webform
 
 ; Radix HR Features
 dependencies[] = radix_hr_job
+dependencies[] = radix_hr_applicant
 ;dependencies[] = bb_hr_admin
 ;dependencies[] = bb_hr_recruiter
-;dependencies[] = bb_hr_applicant
 ;dependencies[] = bb_hr_application
 ;dependencies[] = bb_hr_webmaster
 ; We can not make this a dependency (enable on install), otherwise block & facet settings are lost
