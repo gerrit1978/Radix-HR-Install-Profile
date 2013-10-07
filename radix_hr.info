@@ -90,10 +90,10 @@ dependencies[] = field_collection
 dependencies[] = webform
 
 ; Radix HR Features
-;dependencies[] = radix_hr_job
-;dependencies[] = radix_hr_applicant
-;dependencies[] = radix_hr_recruiter
-;dependencies[] = radix_hr_application
+dependencies[] = radix_hr_job
+dependencies[] = radix_hr_applicant
+dependencies[] = radix_hr_recruiter
+dependencies[] = radix_hr_application
 ;dependencies[] = bb_hr_admin
 ;dependencies[] = bb_hr_recruiter
 ;dependencies[] = bb_hr_application
