@@ -138,8 +138,8 @@ function radix_hr_extra_configurations(&$install_state) {
   variable_set('pathauto_node_pattern', '[node:title]');
   
   // default theme
-  theme_enable(array('zen', 'brightbrain'));
-  variable_set('theme_default', 'brightbrain');
+  theme_enable(array('zen', 'radix'));
+  variable_set('theme_default', 'radix');
 
   // webform variables: hide comments and submitted by text
   variable_set('comment_webform', 0);
