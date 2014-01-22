@@ -141,6 +141,9 @@ function radix_hr_extra_configurations(&$install_state) {
   theme_enable(array('zen', 'radix'));
   variable_set('theme_default', 'radix');
 
+  // admin theme
+  variable_set('admin_theme', 'ember');
+
   // webform variables: hide comments and submitted by text
   variable_set('comment_webform', 0);
   variable_set('node_submitted_webform', 0);
