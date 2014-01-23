@@ -138,8 +138,8 @@ function radix_hr_extra_configurations(&$install_state) {
   variable_set('pathauto_node_pattern', '[node:title]');
   
   // default theme
-  theme_enable(array('zen', 'radix'));
-  variable_set('theme_default', 'radix');
+  theme_enable(array('zen', 'radix_default'));
+  variable_set('theme_default', 'radix_default');
 
   // admin theme
   variable_set('admin_theme', 'ember');
