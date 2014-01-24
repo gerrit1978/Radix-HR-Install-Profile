@@ -90,6 +90,9 @@ dependencies[] = field_collection
 ; Webform
 dependencies[] = webform
 
+; i18n
+dependencies[] = translation_helpers
+
 ; Radix HR Features
 ;dependencies[] = radix_hr_job
 ;dependencies[] = radix_hr_applicant
