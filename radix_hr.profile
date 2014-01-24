@@ -147,5 +147,8 @@ function radix_hr_extra_configurations(&$install_state) {
   // webform variables: hide comments and submitted by text
   variable_set('comment_webform', 0);
   variable_set('node_submitted_webform', 0);
+
+  // user settings
+  variable_set('user_register', 1);
   
 }
